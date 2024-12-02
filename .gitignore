@@ -1,0 +1,12 @@
+*.pyc
+__pycache__/
+*.pyo
+
+*.c
+*.so
+build/
+
+docs/_build/
+
+.DS_Store
+Thumbs.db
