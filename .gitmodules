@@ -1,6 +1,0 @@
-[submodule "dual_autodiff"]
-	path = dual_autodiff
-	url = https://gitlab.developers.cam.ac.uk/phy/data-intensive-science-mphil/assessments/c1_coursework1/ks2146.git
-[submodule "dual_autodiff_x"]
-	path = dual_autodiff_x
-	url = https://gitlab.developers.cam.ac.uk/phy/data-intensive-science-mphil/assessments/c1_coursework1/ks2146.git
