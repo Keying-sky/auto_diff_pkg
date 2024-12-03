@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools", "wheel", "setuptools_scm"] 
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dual_autodiff"  
+dynamic = ["version"]      
+description = "A Python package for forward-mode automatic differentiation using dual numbers"
+readme = "README.md"    
+authors = [
+    { name = "Keying Song", email = "ks2146@cam.ac.uk" }
+]
+         
+keywords = ["automatic differentiation", "dual numbers", "forward-mode differentiation"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",     
+    "Operating System :: OS Independent",
+]
+dependencies = []   
+
+[project.urls]
+"Documentation" = "https://your-readthedocs-url-here"
+"Source" = "https://github.com/yourusername/companies_package"
+
+
+[tool.setuptools_scm]
+write_to = "dual_autodiff/version.py"  # Where to write the dynamic version
+
+[tool.setuptools.packages.find]
+where = ["."]

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: dual_autodiff_cy
+Version: 0.0.0b1.dev1+ga82f607
+Summary: An Optimisied Cython package for forward-mode automatic differentiation using dual numbers, can be imported as a python package
+Author-email: Keying Song <ks2146@cam.ac.uk>
+Project-URL: Documentation, https://your-readthedocs-url-here
+Project-URL: Source, https://github.com/yourusername/companies_package
+Keywords: Cython,dual numbers,forward-mode differentiation
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# dual_autodiff
+This project implements forward-mode automatic differentiation using dual numbers.
