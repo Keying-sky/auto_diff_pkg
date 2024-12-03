@@ -1,11 +1,11 @@
-# Dual_Autodiff Package
-The **dual_autodiff_cy** is a Cython package designed to implement forward-mode automatic differentiation using dual numbers.
+# dual_autodiff_cy Package
+The **dual_autodiff_cy** is a Cython package designed to implement forward-mode automatic differentiation using dual numbers, about 2~2.5 times faster than the pure python version.
 
 ## Features
 
 - Base `Dual` class with core mathematical operations for dual numbers, including string representation.
 - Main functions: +, -, *, /, **, exp, log, sin, cos, tan, string representation.
-- forward-mode differentiation: By creating a Dual with zero dual part, can easily perform a accurate, stable and fast differentiation method, but only for functions consisting of defined operations.
+- Forward-mode differentiation: By creating a Dual with zero dual part, can easily perform a accurate, stable and fast differentiation method, but only for functions consisting of defined operations.
 
 ## Installation
 

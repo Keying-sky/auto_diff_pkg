@@ -1,11 +1,11 @@
-# Dual_Autodiff Package
+# dual_autodiff Package
 The **dual_autodiff** is a Python package designed to implement forward-mode automatic differentiation using dual numbers.
 
 ## Features
 
 - Base `Dual` class with core mathematical operations for dual numbers, including string representation.
 - Main functions: +, -, *, /, **, exp, log, sin, cos, tan, string representation.
-- forward-mode differentiation: By creating a Dual with zero dual part, can easily perform a accurate, stable and fast differentiation method, but only for functions consisting of defined operations.
+- Forward-mode differentiation: By creating a Dual with zero dual part, can easily perform a accurate, stable and fast differentiation method, but only for functions consisting of defined operations.
 
 ## Installation
 
@@ -27,7 +27,6 @@ y = Dual(2, 4)
 print(x + y)
 
 ```
-
 ## Documentation
 
 Visit my [documentation page](https://ks2146.readthedocs.io/en/latest/index.html).
