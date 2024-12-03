@@ -1,0 +1,11 @@
+dual_autodiff_x/src/dual_autodiff_cy/*.pyc
+dual_autodiff_x/src/dual_autodiff_cy/__pycache__/
+
+dual_autodiff_x/src/dual_autodiff_cy/*.c
+dual_autodiff_x/src/dual_autodiff_cy/*.pyd
+dual_autodiff_x/build/
+
+docs/_build/
+
+.DS_Store
+Thumbs.db
