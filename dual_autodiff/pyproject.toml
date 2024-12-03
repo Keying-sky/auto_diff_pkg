@@ -20,7 +20,7 @@ classifiers = [
 dependencies = []   
 
 [project.urls]
-"Documentation" = "https://your-readthedocs-url-here"
+"Documentation" = "https://ks2146.readthedocs.io/en/latest/index.html"
 "Source" = "https://github.com/yourusername/companies_package"
 
 
