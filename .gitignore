@@ -5,6 +5,9 @@ dual_autodiff_x/src/dual_autodiff_cy/*.c
 dual_autodiff_x/src/dual_autodiff_cy/*.pyd
 dual_autodiff_x/build/
 
+dual_autodiff_x/src/*.egg-info
+dual_autodiff/*.egg-info
+
 docs/_build/
 
 .DS_Store

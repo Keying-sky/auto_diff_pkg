@@ -21,11 +21,10 @@ dependencies = []
 
 [project.urls]
 "Documentation" = "https://ks2146.readthedocs.io/en/latest/index.html"
-"Source" = "https://github.com/yourusername/companies_package"
-
 
 [tool.setuptools_scm]
-write_to = "dual_autodiff/version.py"  # Where to write the dynamic version
+# write_to = "dual_autodiff/version.py"  
+fallback_version = "0.0.0beta0"
 
 [tool.setuptools.packages.find]
 where = ["."]

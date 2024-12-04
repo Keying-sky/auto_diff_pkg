@@ -1,7 +1,5 @@
-.gitignore
 README.md
 pyproject.toml
-readthedocs.yaml
 dual_autodiff/__init__.py
 dual_autodiff/dual.py
 dual_autodiff/version.py

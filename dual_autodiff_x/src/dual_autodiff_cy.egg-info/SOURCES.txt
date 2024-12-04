@@ -3,8 +3,6 @@ pyproject.toml
 setup.py
 src/dual_autodiff_cy/dual.c
 src/dual_autodiff_cy/__init__.py
-src/dual_autodiff_cy/dual.c
-src/dual_autodiff_cy/dual.cp313-win_amd64.pyd
 src/dual_autodiff_cy/dual.pyx
 src/dual_autodiff_cy/version.py
 src/dual_autodiff_cy.egg-info/PKG-INFO

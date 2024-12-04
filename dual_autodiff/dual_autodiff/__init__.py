@@ -1,3 +1,3 @@
-from .dual import Dual  # 导入 Dual 类
+from .dual import Dual 
 
 __all__ = ["Dual"] 
