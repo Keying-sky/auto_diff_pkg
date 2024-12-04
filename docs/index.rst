@@ -5,7 +5,7 @@
 
 Forwoard-mode automatic differentiation
 =============================================
-In this documentation, the package **dual_autodiff** and its optimised Cython version **dual_autodiff_cy** are introduced. We will learn
+In this documentation, the package **dual_autodiff** and its optimised Cython version **dual_autodiff_x** are introduced. We will learn
 how to use the packages and then use them to perform an accurate, stable and fast method for differentiation. However, the function being 
 derived can only consist of defined operations. (See tutorial)
 

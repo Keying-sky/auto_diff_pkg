@@ -1,5 +1,5 @@
 import pytest
-from dual_autodiff_cy import Dual
+from dual_autodiff_x import Dual
 import math
 
 def forward_mode_diff(func, x):

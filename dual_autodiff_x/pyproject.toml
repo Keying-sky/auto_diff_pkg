@@ -3,7 +3,7 @@ requires = ["setuptools", "Cython", "wheel", "setuptools_scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "dual_autodiff_cy"
+name = "dual_autodiff_x"
 dynamic = ["version"]
 description = "An Optimisied Cython package for forward-mode automatic differentiation using dual numbers, can be imported as a python package"
 readme = "README.md" 
@@ -24,7 +24,7 @@ dependencies = []
 "Documentation" = "https://ks2146.readthedocs.io/en/latest/index.html"
 
 [tool.setuptools_scm]
-#write_to = "src/dual_autodiff_cy/version.py" 
+#write_to = "src/dual_autodiff_x/version.py" 
 fallback_version = "0.0.0beta0"
 
 [tool.setuptools]

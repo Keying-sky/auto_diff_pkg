@@ -1,5 +1,5 @@
 import pytest
-from dual_autodiff.dual import Dual
+from dual_autodiff_x.dual import Dual
 import math
 
 def test_dual_initialization():

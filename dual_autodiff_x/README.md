@@ -1,5 +1,5 @@
-# dual_autodiff_cy Package
-The **dual_autodiff_cy** is a Cython package designed to implement forward-mode automatic differentiation using dual numbers, about 2~2.5 times faster than the pure python version.
+# dual_autodiff_x Package
+The **dual_autodiff_x** is a Cython package designed to implement forward-mode automatic differentiation using dual numbers, about 2~2.5 times faster than the pure python version.
 
 ## Features
 
@@ -20,7 +20,7 @@ pip install -e .
 Here's a quick example of how to use the package:
 
 ```python
-from dual_autodiff_cy import Dual
+from dual_autodiff_x import Dual
 
 x = Dual(1, 2)
 y = Dual(2, 4)
