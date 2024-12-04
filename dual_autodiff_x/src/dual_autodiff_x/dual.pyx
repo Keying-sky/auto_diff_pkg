@@ -37,6 +37,9 @@ cdef class Dual:
 
     cpdef void set_dual(self, double value):
         self.dual = value
+    
+    def __repr__(self):
+        return f"Dual(real={self.real}, dual={self.dual})"
 
 # ------------------ add ---------------------------#
     cdef inline Dual _add(self, Dual other):
@@ -199,7 +202,6 @@ cdef class Dual:
         cdef double cos_real = cos(self.real)
         return Dual(cos_real, -self.dual * sin_real)
 
-    
     
     cdef inline Dual _tan_inline(self):
         if isclose(cos(self.real), 0.0, bias=1e-5):

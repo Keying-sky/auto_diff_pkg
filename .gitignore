@@ -1,8 +1,8 @@
-dual_autodiff_x/src/dual_autodiff_cy/*.pyc
-dual_autodiff_x/src/dual_autodiff_cy/__pycache__/
+dual_autodiff_x/src/dual_autodiff_x/*.pyc
+dual_autodiff_x/src/dual_autodiff_x/__pycache__/
 
-dual_autodiff_x/src/dual_autodiff_cy/*.c
-dual_autodiff_x/src/dual_autodiff_cy/*.pyd
+dual_autodiff_x/src/dual_autodiff_x/*.c
+dual_autodiff_x/src/dual_autodiff_x/*.pyd
 dual_autodiff_x/build/
 
 dual_autodiff_x/src/*.egg-info
