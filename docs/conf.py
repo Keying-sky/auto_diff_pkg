@@ -22,7 +22,7 @@ import sphinx_rtd_theme
 project = 'dual_autodiff'
 copyright = '2024, Keying Song'
 author = 'Keying Song'
-release = '0.0.1'
+release = '0.0.0beta0'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -35,12 +35,7 @@ extensions = [
     'sphinx.ext.githubpages',
 ]
 
-'''
-sphinx_gallery_conf = {
-    'examples_dirs': '../notebooks',  # 存放 .ipynb 文件的路径（相对于 conf.py）
-    'gallery_dirs': 'auto_examples',  # 输出生成的文档路径（相对于 docs/）
-}
-'''
+
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'tutorial_notebooks/tutorial*/*_empty.ipynb']
 
