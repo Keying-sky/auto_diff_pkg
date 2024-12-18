@@ -1,7 +1,7 @@
 # C1 Coursework
-### Keying Song
+### Keying Song (ks2146)
 
-In this coursework, a Cython package named 'dual_autodiff_x' which performs forward-mode automatic differentiation was created step by step.
+In this coursework, a Cython package named `dual_autodiff_x` which performs forward-mode automatic differentiation was created step by step.
 
 ## Declaration
 No auto-generation tools were used in this coursework except for generation of BibTeX references.
@@ -22,7 +22,7 @@ The main structure of the packages created for this project is like:
 ```
 
 ## Installation
-### 1. For dual_autodiff module:
+### 1. For `dual_autodiff`:
 - From source
 
 ```bash
@@ -32,7 +32,7 @@ pip install -e .
 ```
 
 
-### 2. For dual_autodiff_x module:
+### 2. For `dual_autodiff_x`:
 - From source
 
 ```bash
