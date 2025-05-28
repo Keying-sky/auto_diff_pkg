@@ -10,3 +10,6 @@ dual_autodiff/*.egg-info
 
 docs/_build/
 
+report/
+
+*.pdf
